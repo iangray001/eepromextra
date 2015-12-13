@@ -9,3 +9,16 @@ The standard Arduino EEPROM library only provides single byte read and write. Th
 For a more complete solution to this problem, check out the EEPROMEx library which can be accessed through the Library Manager in the Arduino IDE.
 
 Uses the existing Arduino EEPROM library for underlying read and write.
+
+## Installation
+To use this in your Arduino sketches you need to add it to your Arduino libraries. First, navigate to your Arduinio libraries:
+
+On Linux or OS X: `~/Documents/Arduino/libraries/`
+
+On Windows: `My Documents\Arduino\libraries\`
+
+And check out the repo there:
+
+    git clone git@github.com:iangray001/eepromextra.git
+
+If you are using the Arduino IDE you will need to restart it.
